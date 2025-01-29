@@ -1,0 +1,149 @@
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 0px;
+            padding: 0px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .glav {
+            margin: 20px 0;
+        }
+        .glav {
+            color: #fff;
+            margin: 20px 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .glav:hover {
+            color: #ff4081; /* Цвет при наведении */
+        }
+
+
+
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between; /* Распределение товаров */
+        }
+        .product {
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 15px;
+            flex: 1 1 30%; /* Занимать 30% ширины */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .product:hover {
+            transform: translateY(-5px); /* Эффект при наведении */
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        .product img {
+            max-width: 100%; 
+            height: auto;
+            border-radius: 5px; /* Закругление углов изображений */
+        }
+        h2 {
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        button {
+            position: relative;
+            background-color: #ff4081; /* Цвет кнопки */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            
+            
+        }
+        button:hover {
+            background-color: #e91e63; /* Цвет кнопки при наведении */
+            
+        }
+
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropbtn {
+            background-color: #333; /* Зеленый фон */
+            color: white; /* Белый текст */
+            padding: 10px 15px; /* Отступы */
+            font-size: 16px; /* Размер шрифта */
+            border: none; /* Без границ */
+            cursor: pointer; /* Курсор в виде указателя */
+        }
+
+        /* Стили для выпадающего меню */
+        .dropdown-content {
+            display: none; /* Скрываем меню по умолчанию */
+            position: absolute; /* Позиционирование */
+            background-color: white; /* Светлый фон */
+            min-width: 160px; /* Минимальная ширина */
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Тень */
+            z-index: 1; /* Расположение над другими элементами */
+        }
+
+        /* Стили для ссылок в меню */
+        .dropdown-content a {
+            background-color: #333;
+            color: black; /* Черный текст */
+            padding: 15px 0px; /* Отступы */
+
+            text-decoration: none; /* Без подчеркивания */
+            display: block; /* Блоковый элемент */
+        }
+
+
+
+        /* Изменение цвета ссылки при наведении */
+        .dropdown-content a:hover {
+            background-color: #f1f1f1; /* Светло-серый фон */
+        }
+
+        /* Показать меню при наведении */
+        .dropdown:hover .dropdown-content {
+            display: block; /* Показываем меню */
+        }
+
+        /* Показать меню при наведении на кнопку */
+        .dropdown:hover .dropbtn {
+            background-color: #333; /* Темнее цвет кнопки при наведении */
+        }
+
+       .dropbtn.glav{
+        right: 11px;
+       }
+.tg{
+    width: 70px;
+}
+.Viber{
+    width: 65px;
+}
+.inst{
+    width: 67px;
+}
