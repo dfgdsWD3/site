@@ -4,13 +4,15 @@ body {
             margin: 0px;
             padding: 0px;
             background-color: #f4f4f4;
+            box-sizing:border-box;
         }
         header {
-            background-color: #333;
+            background: url(https://img1.akspic.ru/crops/5/9/3/7/7/177395/177395-novyj_makbuk_pro-yabloko-yabloko_m3-macbook_pro-makbuk_ejr-1920x1080.jpg);
             color: #fff;
             padding: 10px 0;
             text-align: center;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
         }
         .glav {
             margin: 20px 0;
@@ -21,6 +23,7 @@ body {
             text-decoration: none;
             font-weight: bold;
             transition: color 0.3s ease;
+
         }
         .glav:hover {
             color: #ff4081; /* Цвет при наведении */
@@ -60,12 +63,12 @@ body {
         }
         footer {
             text-align: center;
-            padding: 30px 0;
-            background-color: #333;
+            padding: 50px;
+            background: url(https://img1.akspic.ru/crops/5/9/3/7/7/177395/177395-novyj_makbuk_pro-yabloko-yabloko_m3-macbook_pro-makbuk_ejr-1920x1080.jpg);
             color: #fff;
             position: relative;
             bottom: 0;
-            width: 100%;
+            width: auto;
         }
         button {
             position: relative;
@@ -90,12 +93,13 @@ body {
         }
 
         .dropbtn {
-            background-color: #333; /* Зеленый фон */
+            background-color: transparent; /* Зеленый фон */
             color: white; /* Белый текст */
             padding: 10px 15px; /* Отступы */
             font-size: 16px; /* Размер шрифта */
             border: none; /* Без границ */
             cursor: pointer; /* Курсор в виде указателя */
+
         }
 
         /* Стили для выпадающего меню */
@@ -132,18 +136,27 @@ body {
 
         /* Показать меню при наведении на кнопку */
         .dropdown:hover .dropbtn {
-            background-color: #333; /* Темнее цвет кнопки при наведении */
+            background-color: transparent;/* Темнее цвет кнопки при наведении */
         }
 
        .dropbtn.glav{
         right: 11px;
        }
-.tg{
-    width: 70px;
+
+.a{
+    align-items: center;
+    justify-content: center;
+    left: 25%;
 }
-.Viber{
-    width: 65px;
+
+.b{
+    align-items: center;
+    justify-content: center;
+    left: 50%;
 }
-.inst{
-    width: 67px;
+
+.c{
+    align-items: center;
+    justify-content: center;
+    left: 75%;
 }
