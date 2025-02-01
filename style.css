@@ -9,7 +9,7 @@ body {
         header {
             background: url(img/fon.jpg);
             color: #fff;
-            padding: 10px 0;
+            padding: 10px 10px 20px 10px;
             text-align: center;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
@@ -23,6 +23,7 @@ body {
             text-decoration: none;
             font-weight: bold;
             transition: color 0.3s ease;
+            font-size: 4;
 
         }
         .glav:hover {
@@ -70,6 +71,3 @@ body {
             bottom: 0;
             width: auto;
         }
-       
-
-
