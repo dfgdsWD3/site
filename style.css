@@ -7,7 +7,7 @@ body {
             box-sizing:border-box;
         }
         header {
-            background: url(https://img1.akspic.ru/crops/5/9/3/7/7/177395/177395-novyj_makbuk_pro-yabloko-yabloko_m3-macbook_pro-makbuk_ejr-1920x1080.jpg);
+            background: url(img/fon.jpg);
             color: #fff;
             padding: 10px 0;
             text-align: center;
@@ -64,7 +64,7 @@ body {
         footer {
             text-align: center;
             padding: 50px;
-            background: url(https://img1.akspic.ru/crops/5/9/3/7/7/177395/177395-novyj_makbuk_pro-yabloko-yabloko_m3-macbook_pro-makbuk_ejr-1920x1080.jpg);
+            background: url(img/fon.jpg);
             color: #fff;
             position: relative;
             bottom: 0;
@@ -143,20 +143,3 @@ body {
         right: 11px;
        }
 
-.a{
-    align-items: center;
-    justify-content: center;
-    left: 25%;
-}
-
-.b{
-    align-items: center;
-    justify-content: center;
-    left: 50%;
-}
-
-.c{
-    align-items: center;
-    justify-content: center;
-    left: 75%;
-}
