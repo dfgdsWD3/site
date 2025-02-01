@@ -1,6 +1,6 @@
 
 body {
-            font-family: Arial, sans-serif;
+            font-family: Montserrat, sans-serif;
             margin: 0px;
             padding: 0px;
             background-color: #f4f4f4;
@@ -74,4 +74,16 @@ body {
 
         .text{
             padding: 20px 20px 20px 20px;
+            box-sizing: border-box;
+display: block;
+font-family: Montserrat, sans-serif;
+font-size: 16px;
+font-weight: 10;
+margin-bottom: 0px;
+margin-top: 0px;
+max-width: 100%;
+text-align: left;
+text-size-adjust: 100%;
+unicode-bidi: isolate;
+text-align: center;
         }
