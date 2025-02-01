@@ -9,7 +9,7 @@ body {
         header {
             background: url(img/fon.jpg);
             color: #fff;
-            padding: 10px 10px 20px 10px;
+            padding: 3px 10px 25px 10px;
             text-align: center;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
@@ -70,4 +70,8 @@ body {
             position: relative;
             bottom: 0;
             width: auto;
+        }
+
+        .text{
+            padding: 20px 20px 20px 20px;
         }
